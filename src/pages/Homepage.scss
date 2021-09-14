@@ -2,6 +2,12 @@
 @import '../scss/themes/theme-light';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+$theme-black: #1F271B;
+$theme-main: #19647E;
+$theme-accent: #28AFB0;
+$theme-background: #F4D35E;
+$theme-background-accent: #EE964B;
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +44,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #{$theme-background};
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,9 +80,9 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
-	padding-bottom: 10px;
-	padding-top: 80px;
+	background-color: #{$theme-background-accent};
+	padding-bottom: 45px;
+	padding-top: 45px;
 }
 
 header h1 {
@@ -172,7 +178,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	height: 45em;
 }
 
 .polaroid span {
@@ -219,7 +225,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #{$theme-background};
 }
 
 .experience-icon {
@@ -233,7 +239,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #{$theme-background-accent} !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -341,7 +347,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #{$theme-background};
 	padding-bottom: 5%;
 }
 
@@ -377,7 +383,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #{$theme-black};
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;

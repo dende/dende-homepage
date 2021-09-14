@@ -8,7 +8,6 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-import Asidebar from "../components/Asidebar";
 
 class Homepage extends Component {
 
@@ -113,7 +112,7 @@ class Homepage extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-germany"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>

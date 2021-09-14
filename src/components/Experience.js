@@ -33,7 +33,7 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#EE964B",
               color: "#fff",
               textAlign: "center",
             }}
@@ -78,12 +78,12 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#cc8649",
                 color: "#fff",
                 textAlign: "center",
               }}
               icon={
-                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+                <i className="fas fa-baby mx-auto experience-icon"></i>
               }
             />
           </VerticalTimeline>
